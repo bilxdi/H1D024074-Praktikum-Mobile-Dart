@@ -15,21 +15,21 @@
     <tr>
       <td align="center">
         <img src="docs/7-1.png" alt="Hello World"><br>
-        <b>Hello World</b>
+        <b>Hello</b>
       </td>
       <td align="center">
         <img src="docs/7-2.png" alt="Tipe Data"><br>
-        <b>Tipe Data</b>
+        <b>Tipe</b>
       </td>
       <td align="center">
         <img src="docs/7-3.png" alt="Operasi Matematika"><br>
-        <b>Operasi Matematika</b>
+        <b>Operasi</b>
       </td>
     </tr>
     <tr>
       <td align="center">
         <img src="docs/7-4.png" alt="Struktur Kontrol"><br>
-        <b>Struktur Kontrol</b>
+        <b>Kontrol</b>
       </td>
       <td align="center">
         <img src="docs/7-5.png" alt="Fungsi"><br>
@@ -37,7 +37,7 @@
       </td>
       <td align="center">
         <img src="docs/7-6.png" alt="Kelas dan Objek"><br>
-        <b>Kelas dan Objek</b>
+        <b>Kelas</b>
       </td>
     </tr>
     <tr>
@@ -51,7 +51,7 @@
       </td>
       <td align="center">
         <img src="docs/7-9.png" alt="Async dan Await"><br>
-        <b>Async dan Await</b>
+        <b>Async</b>
       </td>
     </tr>
   </table>

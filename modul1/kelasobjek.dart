@@ -9,7 +9,7 @@ class Mahasiswa {
   }
 }
 
-void main(List) {
+void main() {
   Mahasiswa mhs = Mahasiswa("Alice", 22);
   mhs.perkenalan();
 }
