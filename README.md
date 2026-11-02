@@ -61,3 +61,38 @@
 Percobaan membuat program sederhana menggunakan bahasa Dart seperti Hello World dan operasi dasar pada pemrograman seperti Matematika, Kontrol, Fungsi, Eksepsi. Percobaan PBO menggunakan Dart dengan membuat Class dan modularitas dari Import. Kemudian percobaan agar kode dapat berjalan tanpa harus menunggu tugas sebelumnya selesai menggunakan Asinkronus.
 
 ---
+
+## Tugas Pertemuan 8
+**Tanggal**: Selasa, 27 Oktober 2026
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="docs/8-1.png" alt="Demo"><br>
+        <b>Demo</b>
+      </td>
+      <td align="center">
+        <img src="docs/8-2.png" alt="Appbar"><br>
+        <b>Appbar</b>
+      </td>
+      <td align="center">
+        <img src="docs/8-3.png" alt="Hello"><br>
+        <b>Hello</b>
+      </td>
+      <td align="center">
+        <img src="docs/8-4.png" alt="Column"><br>
+        <b>Column</b>
+      </td>
+      <td align="center">
+        <img src="docs/8-5.png" alt="Produk"><br>
+        <b>Produk</b>
+      </td>
+    </tr>
+  </table>
+</p>
+
+**Kesimpulan Praktikum:**
+Percobaan menginstall Flutter dan menjalankan aplikasi default nya, kemudian percobaan mengubah Appbar dan membuat Hello World. Percobaan membuat Column dan Row, kemudian percobaan membuat folder ui dan memisahkan halaman Produk serta membuat tampilan dari halaman Produk.
+
+---
