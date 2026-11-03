@@ -1,4 +1,4 @@
-import 'package:belajarflutter/ui/produk_page.dart';
+import 'package:belajarflutter/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -6,38 +6,59 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Aplikasi Flutter Pertama',
-      home: ProdukPage(),
+    return MaterialApp(
+      title: 'Flutter Menu',
+      theme: ThemeData(
+        useMaterial3: true,
+        primaryColor: Colors.blue,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.blue,
+          foregroundColor: Colors.white,
+          elevation: 0,
+          
+          titleTextStyle: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.blue,
+            foregroundColor: Colors.white, 
+            elevation: 1, 
+            
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(5.0),
+            ),
+            
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            
+            textStyle: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          hintStyle: const TextStyle(color: Colors.grey),
+          enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
+          focusedBorder: UnderlineInputBorder(
+            borderSide: const BorderSide(color: Colors.blue, width: 1.5),
+          ),
+        ),
+        textSelectionTheme: TextSelectionThemeData(cursorColor: Colors.blue),
+      ),
+      home: LoginPage(),
     );
   }
 }
 
-// class MyApp extends StatelessWidget {
-//   const MyApp({Key? key}) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       title: 'Aplikasi Flutter Pertama',
-//       home: Scaffold(
-//         appBar: AppBar(
-//           backgroundColor: Colors.lightBlue,
-//           foregroundColor: Colors.white,
-//           centerTitle: true,
-//           title: Text ('Belajar Flutter', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
-//         ),
-//         body: const Center(
-//           child: Text('Hello World'),
-//         ),
-//       ),
-//     );
-//   }
-// }
+// FUN FACT Colors.blue is most likely be the default blue flutter
 
 // class MyHomePage extends StatefulWidget {
 //   const MyHomePage({super.key, required this.title});
