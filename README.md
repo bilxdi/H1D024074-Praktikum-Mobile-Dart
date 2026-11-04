@@ -96,3 +96,30 @@ Percobaan membuat program sederhana menggunakan bahasa Dart seperti Hello World 
 Percobaan menginstall Flutter dan menjalankan aplikasi default nya, kemudian percobaan mengubah Appbar dan membuat Hello World. Percobaan membuat Column dan Row, kemudian percobaan membuat folder ui dan memisahkan halaman Produk serta membuat tampilan dari halaman Produk.
 
 ---
+
+## Tugas Pertemuan 9
+**Tanggal**: Selasa, 3 November 2026
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="docs/9-1.png" alt="Login"><br>
+        <b>Login</b>
+      </td>
+      <td align="center">
+        <img src="docs/9-2.png" alt="Home"><br>
+        <b>Home</b>
+      </td>
+      <td align="center">
+        <img src="docs/9-3.png" alt="Menu"><br>
+        <b>Menu</b>
+      </td>
+    </tr>
+  </table>
+</p>
+
+**Kesimpulan Praktikum:**
+Percobaan menambahkan dependencies Socal Storage atau Shared Preferences, kemudian percobaan membuat halaman login menggunakan Local Storage dan widget Input Button. Percobaan membuat halaman home yang berisi username dari Local Storage login, kemudian percobaan membuat sidemenu berisi Drawer dan ListTile yang berguna untuk redirect ke halaman berbeda seperti about.
+
+---
